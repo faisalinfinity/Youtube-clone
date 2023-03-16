@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    async function test(){
+
+        // let res=await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=carryminati&key=AIzaSyCsBGHYmBrKfdZ7VbyWW6smpl-O4Yw3sak`)
+        res=await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&videoCategoryId=5X1lPaykdbw&key=AIzaSyCsBGHYmBrKfdZ7VbyWW6smpl-O4Yw3sak`)
+       
+        data= await res.json()
+
+        console.log("data:",data)
+
+    }
+    test()
+</script>

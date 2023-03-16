@@ -1,0 +1,52 @@
+#container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+
+  form {
+    width: 10%;
+  }
+  
+  #register-form{
+    width: 30%;
+    height: auto;
+    background-color: #ffff;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  #login-form{
+    width: 25%;
+    height: 400px;
+    background-color: #ffff;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  form input{
+    margin: auto;
+    width: 80%;
+    height: 40px;
+  }
+  button{
+    background-color: #1669d7;
+    color: #ffff;
+     border: none;
+     font-size: 15px;
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #logo{
+    width:25%;
+  }
+  

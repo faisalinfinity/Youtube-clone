@@ -1,0 +1,53 @@
+#container{
+    display: flex;
+    height: 700px;
+    margin-top: 150px;
+    position:-webkit-sticky;
+    left: 0;
+    right: 0;
+
+}
+#video{
+    flex: 7;
+    
+}
+#recom{
+    flex: 3;
+    overflow-y:scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#container *{
+    /* border: 2px solid black; */
+}
+#navbar{
+    background-color: aliceblue;
+}
+#sidenav{
+    display: none;
+    width: 250px;
+}
+iframe{
+    margin: auto;
+    margin-left: 100px;
+    width: 80%;
+    height: 70%;
+}
+.dropdown:hover #sidenav {
+    display: none;
+    width: 200px;
+  }
+  #sidenav a{
+    display: flex;
+    gap: 10px;
+  }
+  .thumbn{
+    width: 30%;
+  }
+  .tdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
